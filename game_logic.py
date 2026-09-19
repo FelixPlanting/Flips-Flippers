@@ -7,7 +7,6 @@ def game():
         switches = random.choices([0, 1], k=4)
 
     rounds = 0
-    light = False
     while switches != [1, 1, 1, 1]:
         print(r"""
               
